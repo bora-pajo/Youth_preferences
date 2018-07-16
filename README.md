@@ -16,6 +16,7 @@ import csv
 ```
 
 
+```python
 from sklearn.linear_model import LogisticRegression #for logistic regression
 from sklearn.pipeline import Pipeline #to assemble steps for cross validation
 from sklearn.preprocessing import PolynomialFeatures #for all the polynomial features
@@ -31,3 +32,4 @@ from sklearn.grid_search import GridSearchCV  # for tuning parameters
 from sklearn.neighbors import KNeighborsClassifier  #for k-neighbor classifier
 from sklearn import metrics  # for checking the accuracy 
 from time import time
+```
