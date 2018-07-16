@@ -16,3 +16,18 @@ import csv
 ```
 
 
+from sklearn.linear_model import LogisticRegression #for logistic regression
+from sklearn.pipeline import Pipeline #to assemble steps for cross validation
+from sklearn.preprocessing import PolynomialFeatures #for all the polynomial features
+from sklearn import svm #for Support Vector Machines
+from sklearn.neighbors import NearestNeighbors #for nearest neighbor classifier
+from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier #for decision tree classifier
+from sklearn.naive_bayes import GaussianNB  #for naive bayes classifier
+from scipy import stats #for statistical info
+from sklearn.model_selection import train_test_split # to split the data in train and test
+from sklearn.model_selection import KFold # for cross validation
+from sklearn.grid_search import GridSearchCV  # for tuning parameters
+from sklearn.neighbors import KNeighborsClassifier  #for k-neighbor classifier
+from sklearn import metrics  # for checking the accuracy 
+from time import time
